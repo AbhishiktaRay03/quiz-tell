@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.back-img img{
+    background-image: url('img\img3.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1; 
+    opacity: 0.8;
+}
+.home h1{
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+    
+    margin-top:13rem ;
+    color: #281616;
+}
+.home h2{
+    font-size: 35px;
+    font-weight: 560;
+    text-align: center;
+    color: #281616;
+}
+.home h3{
+    font-size: 30px;
+    font-weight: 560;
+    text-align: center;
+    color: #281616;
+}
+.home a{
+    background: #e5f3ac;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #000;
+    padding: 10px;
+    margin-left:45rem ;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.home a:hover{
+    background: rgb(243, 217, 86);
+    border: 2px solid #000;
+    border-radius: 10px;
+    
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+#quiz-bg{
+    background: rgb(211, 70, 243);
+} 
+.app{
+    background: #f8f1f1;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 15px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.app h1{
+    font-size: 45px;
+    font-weight: 600;
+    color:black;
+    border-bottom: 2px solid #464444;
+    padding-bottom: 30px;
+}
+.app span{
+    color: rgb(243, 217, 86);
+    font-size: 45px;
+    font-weight: 600;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+.btn{
+    background: #d6d5d5;
+    color: black;
+    width:100%;
+    padding: 10px ;
+    margin: 10px 0;
+    font-size: 20px;
+    border: 1.6px solid #464444;
+    border-radius: 5px;
+    box-shadow: 5px 3px #070707;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background:rgb(243, 217, 86);
+    color: #000;
+    transform: scale(1.03);
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background: rgb(243, 217, 86);
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    width:120px;
+    border: 1px solid #000;
+    padding:10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none ;
+}
+#next-btn:hover{
+    transform: scale(1.03);
+    font-weight: 600;
+}
+.correct{
+    background: #68d068;
+}
+.incorrect{
+    background: rgb(233, 117, 117);
+}
