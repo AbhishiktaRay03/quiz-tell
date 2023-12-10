@@ -162,7 +162,9 @@
     width: 80%;
 }
 .home a:hover{
+    margin-left: 8rem;
     background: #e5f3ac;
+    font-size: 20px;
 }
 }
   
