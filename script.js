@@ -10,7 +10,7 @@ const questions = [
         ]
     },
     {
-        question:"What is the gift the Ross offered while applying for ugly naked guy's apartment?",
+        question:"What is the gift that Ross offered while applying for ugly naked guy's apartment?",
         answers:[
             {text:"Muffins", correct: true},
             {text:"Chocolates", correct: false},
