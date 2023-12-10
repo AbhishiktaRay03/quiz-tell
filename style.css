@@ -167,28 +167,5 @@
     font-size: 20px;
 }
 }
-/*footer*/
-.footer-bottom-section {
-    width: 100%;
-    padding: 10px 0 0;
-    border-top: 1px solid var(--main-color);
-    margin-top: 2px;
-    margin-left:0 ;
-    margin-right: 0;
-    
-  }
-  .footer-bottom-section > div:first-child {
-    margin-right: auto
-  }
-  .footer-bottom-wrapper {
-    font-size: 1.5em;
-    color: #fff;
-    position: relative;
-    left:60rem;
-  }
-  .footer-address {
-    display: inline;
-    font-style: normal;
-  }
- 
+
   
