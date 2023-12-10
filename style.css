@@ -138,3 +138,54 @@
 .incorrect{
     background: rgb(233, 117, 117);
 }
+
+@media only screen and (max-width: 600px) {
+.home h1{
+    font-size: 50px;
+    margin-top: 17rem;
+}
+.home h2{
+    font-size: 25px;
+}
+.home h3{
+    font-size: 20px;
+}
+.home a{
+    margin-left: 8rem;
+}
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .home h1{
+        font-size: 80px;
+        margin-top: 25rem;
+    }
+    .home h2{
+        font-size: 45px;
+    }
+    .home h3{
+        font-size: 40px;
+    }
+    .home a{
+        margin-left: 21rem;
+        font-size: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .home h1{
+        font-size: 120px;
+        margin-top: 35rem;
+    }
+    .home h2{
+        font-size: 85px;
+    }
+    .home h3{
+        font-size: 60px;
+    }
+    .home a{
+        margin-left: 40rem;
+        font-size: 55px;
+    }
+  
+  }
