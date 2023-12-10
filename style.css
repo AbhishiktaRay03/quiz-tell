@@ -152,6 +152,14 @@
 }
 .home a{
     margin-left: 8rem;
+    font-size: 20px;
+}
+.app {
+    background: #f8f1f1;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
 }
 }
   
