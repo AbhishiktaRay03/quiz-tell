@@ -32,10 +32,10 @@ const questions = [
     {
         question:"What is Joey's full name?",
         answers:[
-            {text:"Joey Blanc Tribbiani", correct: false},
-            {text:"Joey Francis Tribbiani", correct: true},
-            {text:"Joey Frank Tribbiani", correct: false},
-            {text:"Joey Tribbiani Jr.", correct: false},
+            {text:"Joseph Blanc Tribbiani", correct: false},
+            {text:"Joseph Francis Tribbiani", correct: true},
+            {text:"Joseph Frank Tribbiani", correct: false},
+            {text:"Joseph Tribbiani Jr.", correct: false},
             
         ]
     },
@@ -52,8 +52,8 @@ const questions = [
     {
         question:"What is Chandler Bing's Job?",
         answers:[
-            {text:"Statistical Analytics and Data Reconfiguration", correct: true},
-            {text:"Statistical Analysis and Data Reconfiguration", correct: false},
+            {text:"Statistical Analytics and Data Reconfiguration", correct: false},
+            {text:"Statistical Analysis and Data Reconfiguration", correct: true},
             {text:"Statistical Analysis and Data Reconciliation", correct: false},
             {text:"Statistical Analytics and Data Reconciliation", correct: false},
             
@@ -84,7 +84,7 @@ const questions = [
         answers:[
             {text:"Green chillies", correct: false},
             {text:"Bell papers", correct: false},
-            {text:"Black olives", correct: true},
+            {text:"Anchovies", correct: true},
             {text:"Chillie flakes", correct: false},
             
         ]
