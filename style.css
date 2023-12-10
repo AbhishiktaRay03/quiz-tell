@@ -161,5 +161,8 @@
     border-radius: 15px;
     width: 80%;
 }
+.home a:hover{
+    background: #e5f3ac;
+}
 }
   
